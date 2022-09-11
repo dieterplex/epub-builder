@@ -157,5 +157,6 @@ pub use zip_command_or_library::ZipCommandOrLibrary;
 #[cfg(feature = "zip-library")]
 pub use zip_library::ZipLibrary;
 
+pub use eyre::Report as Error;
 /// Re-exports the result type used across the library.
 pub use eyre::Result;
